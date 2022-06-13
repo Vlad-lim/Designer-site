@@ -1,0 +1,88 @@
+#Ferst-abs{
+    animation:abs 15s infinite;
+}
+@keyframes abs{
+   0%{
+    margin-top:0px;
+    margin-left:0px;
+   }
+   20%{
+       margin-top: 20px;
+       margin-left:50px;
+   }
+   40%{
+       margin-top:-25px;
+        margin-left:30px;
+   }
+   60%{
+       margin-top: 20px;
+       margin-left:120px;
+   }
+}
+
+#second-abs{
+    animation:abs2 10s infinite;
+}
+@keyframes abs2{
+   0%{
+    margin-top:0px;
+    margin-left:0px;
+   }
+   20%{
+       margin-top: -10px;
+       margin-left:30px;
+   }
+   40%{
+       margin-top:55px;
+        margin-left:60px;
+   }
+   60%{
+       margin-top: 66px;
+       margin-left:20px;
+   }
+}
+
+#third-abs{
+    animation:abs3 10s infinite;
+}
+@keyframes abs3{
+   0%{
+    margin-top:0px;
+    margin-left:0px;
+   }
+   20%{
+       margin-top: 46px;
+       margin-left:-70px;
+   }
+   40%{
+       margin-top:-70px;
+        margin-left:-120px;
+   }
+   50%{
+       margin-top: -26px;
+       margin-left:-10px;
+   }
+   80%{
+    margin-top: 26px;
+    margin-left:10px;
+}
+}
+
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+  }
+  
+  html.is-animating .transition-fade {
+    opacity: 0;
+  }
+
+  button:hover{
+    padding:15px 40px;
+    transition:0.5s all;
+  }
+
+ 
+
+
+ 
